@@ -17,12 +17,12 @@ import androidx.fragment.app.FragmentManager;
 
 import com.example.ssvlvotings.R;
 import com.example.ssvlvotings.currentuser;
+import com.example.ssvlvotings.ourmap;
 import com.example.ssvlvotings.signup;
 import com.example.ssvlvotings.viewinfo;
 
 public class ProfileFragment extends Fragment {
-    Button viewdata;
-    TextView mail;
+    Button viewdata,map;
     @Override
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -35,10 +35,21 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v) {
 
                 Intent intent= new Intent(getActivity(), viewinfo.class);
-                intent.putExtra("data","some data");
+//                intent.putExtra("data","some data");
                 startActivity(intent);
             }
         });
+
+        map = (Button) v.findViewById(R.id.location);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(getActivity(), ourmap.class);
+                startActivity(intent);
+            }
+        });
+
+
 
         return v;
     }

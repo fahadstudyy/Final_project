@@ -25,18 +25,35 @@
         android:layout_width="190dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
     <Button
         android:id="@+id/viewdata"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
-        android:layout_weight="1"
-        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:width="153dp"
+        android:layout_marginLeft="20dp"
+        android:height="50dp"
+        android:background="@drawable/bg_button_white"
+        android:textColor="#ffffff"
         android:layout_marginTop="20dp"
-        android:text="View Profile"
+        android:text="View Profile"/>
 
-        />
+        <Button
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:width="153dp"
+            android:layout_marginLeft="20dp"
+            android:height="50dp"
+            android:background="@drawable/bg_button_white"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:text="Our Location"/>
+
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,12 +66,12 @@
         android:textFontWeight="1155"
         />
 
-    <fragment
-        android:id="@+id/map"
-        android:name="com.example.ssvlvotings.Fragments.MapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="590dp"
-        android:layout_marginTop="10dp"
-        />
+<!--    <fragment-->
+<!--        android:id="@+id/map"-->
+<!--        android:name="com.example.ssvlvotings.Fragments.MapFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="590dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        />-->
 </LinearLayout>
 </ScrollView>

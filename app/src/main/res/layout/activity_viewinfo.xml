@@ -9,16 +9,22 @@
     android:background="#29465c"
     android:orientation="vertical">
 
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#808080"
+    android:layout_marginTop="90dp"
+    android:orientation="vertical"
+    >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="29dp"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="18dp"
         android:text="Email:"
         android:gravity="left"
         android:layout_marginLeft="20dp"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="18dp"
          />
 
     <TextView
@@ -28,7 +34,7 @@
         android:gravity="center"
         android:text="Email"
         android:textColor="@color/white"
-        android:textSize="25dp" />
+        android:textSize="17dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -38,7 +44,7 @@
         android:gravity="left"
         android:layout_marginLeft="20dp"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="18dp"
         />
 
     <TextView
@@ -48,7 +54,7 @@
         android:gravity="center"
         android:text="Fname"
         android:textColor="@color/white"
-        android:textSize="25dp" />
+        android:textSize="17dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="29dp"
@@ -57,7 +63,7 @@
         android:gravity="left"
         android:layout_marginLeft="20dp"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="18dp"
         />
 
     <TextView
@@ -67,7 +73,7 @@
         android:gravity="center"
         android:text="Fname"
         android:textColor="@color/white"
-        android:textSize="25dp" />
+        android:textSize="17dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="29dp"
@@ -76,7 +82,7 @@
         android:gravity="left"
         android:layout_marginLeft="20dp"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="18dp"
         />
 
     <TextView
@@ -86,6 +92,8 @@
         android:gravity="center"
         android:text="Fname"
         android:textColor="@color/white"
-        android:textSize="25dp" />
+        android:textSize="17dp" />
+
+</LinearLayout>
 
 </LinearLayout>

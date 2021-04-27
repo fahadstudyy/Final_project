@@ -16,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SSVLVotingS">
-        <activity android:name=".viewinfo"></activity>
+        <activity android:name=".ourmap"></activity>
+        <activity android:name=".viewinfo" />
         <activity android:name=".Diloge_Fragment" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

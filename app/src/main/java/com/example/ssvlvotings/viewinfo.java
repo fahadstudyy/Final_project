@@ -20,7 +20,7 @@ public class viewinfo extends AppCompatActivity {
         requestWindowFeature(getWindow().FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_viewinfo);
-        Bundle bundle = getIntent().getExtras();
+//        Bundle bundle = getIntent().getExtras();
 
 
         mail = (TextView) findViewById(R.id.email);
