@@ -19,6 +19,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class fragment_profile extends AppCompatActivity implements OnMapReadyCallback {
     private Button fragmentbtn;
