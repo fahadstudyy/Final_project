@@ -17,7 +17,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MapFragment extends Fragment {
+public class MapsFragment extends Fragment {
 
     private OnMapReadyCallback callback = new OnMapReadyCallback() {
 
@@ -32,10 +32,9 @@ public class MapFragment extends Fragment {
          */
         @Override
         public void onMapReady(GoogleMap googleMap) {
-            LatLng superior = new LatLng(31.4190, 74.2309);
-            googleMap.addMarker(new MarkerOptions().position(superior).title("Marker in Superior"));
-            googleMap.animateCamera(
-                    CameraUpdateFactory.newLatLngZoom(superior,14f));
+            LatLng sydney = new LatLng(31.4190, 74.2309);
+            googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Superior"));
+            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney,14f));
         }
     };
 
@@ -44,7 +43,7 @@ public class MapFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_map, container, false);
+        return inflater.inflate(R.layout.fragment_maps, container, false);
     }
 
     @Override

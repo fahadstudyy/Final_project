@@ -17,8 +17,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SSVLVotingS">
         <activity android:name=".ourmap"></activity>
-        <activity android:name=".viewinfo" />
-        <activity android:name=".Diloge_Fragment" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -31,6 +29,8 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity android:name=".viewinfo" />
+        <activity android:name=".Diloge_Fragment" />
         <activity android:name=".Fragments.fragment_profile" />
         <activity android:name=".Fragments.Fragment_vote" />
         <activity android:name=".Fragments.fragment_activity" />
